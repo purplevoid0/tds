@@ -1,8 +1,8 @@
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
 
 TDS:Loadout("Gatling Gun", "Hacker", "DJ Booth", "Cowboy", "Ranger")
-TDS:Mode("")
-TDS:GameInfo("", {})
+TDS:Mode("Frost", "15313919747014914128632650504103")
+TDS:GameInfo("Summer Castle", {})
 
 TDS:Place("Cowboy", 14.02724838256836, 0.9758100509643555, 24.277618408203125)
 TDS:Ready()
