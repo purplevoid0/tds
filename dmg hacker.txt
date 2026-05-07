@@ -1,0 +1,175 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Gatling Gun", "Hacker", "DJ Booth", "Cowboy", "Ranger")
+TDS:Mode("")
+TDS:GameInfo("", {})
+
+TDS:Place("Cowboy", 14.02724838256836, 0.9758100509643555, 24.277618408203125)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", 11.448829650878906, 0.9721808433532715, 24.13718605041504)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", 16.637828826904297, 0.9792094230651855, 24.07125473022461)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", 11.50699234008789, 0.9742519855499268, 26.65833282470703)
+TDS:Place("Cowboy", 14.06930923461914, 0.9778661727905273, 26.807592391967773)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", 16.715187072753906, 0.9813170433044434, 26.605438232421875)
+TDS:Place("DJ Booth", 16.324291229248047, 0.974600076675415, 18.778430938720703)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(7, 1)
+TDS:Upgrade(7, 1)
+
+-- [ Wave 6 ] --
+TDS:SetOption(7, "Track", "Green")
+
+-- [ Wave 7 ] --
+TDS:Upgrade(7, 1)
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:VoteSkip(8)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", 16.256450653076172, 0.9482498168945312, 14.23891830444336)
+
+-- [ Wave 10 ] --
+TDS:Place("Hacker", 19.31277084350586, 0.983856201171875, 25.333148956298828)
+TDS:Upgrade(9, 1)
+TDS:Upgrade(9, 1)
+TDS:Upgrade(9, 1)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(9, 1)
+
+-- [ Wave 14 ] --
+TDS:VoteSkip(14)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(9, 1)
+TDS:VoteSkip(15)
+TDS:Upgrade(8, 1)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8, 1)
+TDS:Upgrade(8, 1)
+TDS:Upgrade(8, 1)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7, 1)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(7, 1)
+TDS:VoteSkip(19)
+
+-- [ Wave 20 ] --
+TDS:Place("Ranger", 11.356879234313965, 4.007867813110352, 8.927312850952148)
+TDS:Upgrade(10, 1)
+TDS:Upgrade(10, 1)
+TDS:Place("Ranger", 8.39310073852539, 4.308524131774902, 7.568721771240234)
+TDS:VoteSkip(20)
+TDS:Upgrade(11, 1)
+TDS:Upgrade(11, 1)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(11, 1)
+TDS:Place("Ranger", 13.77479362487793, 4.376534461975098, 7.1257548332214355)
+TDS:Upgrade(12, 1)
+TDS:Upgrade(12, 1)
+
+-- [ Wave 22 ] --
+TDS:Place("Ranger", 10.996466636657715, 4.454889297485352, 5.470011234283447)
+TDS:Upgrade(13, 1)
+TDS:Upgrade(13, 1)
+TDS:Place("Ranger", 13.69883918762207, 4.327095985412598, 3.9172909259796143)
+TDS:VoteSkip(22)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14, 1)
+TDS:Upgrade(14, 1)
+TDS:Upgrade(14, 1)
+TDS:Upgrade(14, 1)
+TDS:Upgrade(14, 1)
+TDS:Place("Ranger", 7.86995267868042, 4.546048164367676, 4.407341480255127)
+TDS:Upgrade(15, 1)
+TDS:Upgrade(15, 1)
+
+-- [ Wave 24 ] --
+TDS:Place("Ranger", 5.450801849365234, 4.592010021209717, 6.483253479003906)
+TDS:Upgrade(16, 1)
+TDS:Upgrade(16, 1)
+TDS:Place("Ranger", 4.76998233795166, 4.666188716888428, 3.1353752613067627)
+TDS:Upgrade(17, 1)
+TDS:Upgrade(17, 1)
+TDS:Upgrade(17, 1)
+TDS:Upgrade(17, 1)
+
+-- [ Wave 26 ] --
+game:GetService("ReplicatedStorage").Network.fflags["RE:ask"]:FireServer("consumables.disabled")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Damage Flag", "E6F5799C-0616-4D29-B9F9-8BD05F9BAE54")
+game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "E6F5799C-0616-4D29-B9F9-8BD05F9BAE54")
+
+-- [ Wave 27 ] --
+TDS:Upgrade(9, 1)
+
+-- [ Wave 28 ] --
+TDS:Place("Hacker", 22.48938751220703, 0.9880812168121338, 25.194438934326172)
+TDS:Upgrade(18, 1)
+TDS:Upgrade(18, 1)
+TDS:Upgrade(18, 1)
+TDS:Upgrade(18, 1)
+TDS:Upgrade(18, 1)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8, 1)
+TDS:VoteSkip(29)
+TDS:Upgrade(8, 1)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8, 1)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(8, 1)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(10, 1)
+TDS:Upgrade(10, 1)
+TDS:Upgrade(12, 1)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(12, 1)
+TDS:Upgrade(14, 1)
+TDS:Upgrade(14, 1)
+TDS:Upgrade(13, 1)
+TDS:Upgrade(13, 1)
+TDS:Upgrade(11, 1)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(11, 1)
+TDS:Upgrade(15, 1)
+TDS:Upgrade(15, 1)
+TDS:Upgrade(17, 1)
+TDS:Upgrade(17, 1)
+TDS:Upgrade(16, 1)
+TDS:Upgrade(16, 1)
+
+-- [ Wave 36 ] --
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(10.166990280151367, 0.967543363571167, 20.324703216552734), towerToClone = 8})
+
+-- [ Wave 38 ] --
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(5.557157516479492, 0.9656612873077393, 25.950929641723633), towerToClone = 8})
+
+-- [ Wave 39 ] --
+TDS:SetOption(7, "Track", "Red")
+
+-- [ Wave 40 ] --
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(22.067718505859375, 0.9691922664642334, 15.975789070129395), towerToClone = 8})
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(6.500276565551758, 0.9638898372650146, 22.05999183654785), towerToClone = 8})
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(8.607717514038086, 0.9159884452819824, 13.099361419677734), towerToClone = 8})
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(5.766502380371094, 0.961998701095581, 20.933359146118164), towerToClone = 8})
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(6.872642517089844, 0.9655196666717529, 23.48302459716797), towerToClone = 8})
