@@ -1,0 +1,31 @@
+-- DÒNG 1: GIỮ NGUYÊN
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+-- Cấu hình: Tên User và Tên File tương ứng trong thư mục workspace
+local userConfigs = {
+    ["miketroutnoob"] = "frost.txt",
+    ["DAHil09231"] = "frost.txt",
+    ["y77by7byedxubx"] = "speedrunhc.txt",
+}
+
+local currentPlayer = game.Players.LocalPlayer.Name
+local fileName = userConfigs[currentPlayer]
+
+if fileName then
+    -- Kiểm tra xem file có tồn tại trong thư mục workspace không
+    if isfile(fileName) then
+        print("Dang tai strat: " .. fileName .. " cho user: " .. currentPlayer)
+        
+        -- Đọc nội dung file
+        local stratContent = readfile(fileName)
+        
+        -- Thực thi nội dung file (Bỏ qua dòng 1 vì đã load ở trên)
+        -- Lưu ý: Nếu file của bạn có chứa dòng loadstring ở đầu, 
+        -- script này vẫn sẽ chạy đè lên nhưng tốt nhất file con chỉ nên chứa các lệnh TDS:
+        loadstring(stratContent)()
+    else
+        warn("Loi: Khong tim thay file " .. fileName .. " trong thu muc workspace!")
+    end
+else
+    warn("User " .. currentPlayer .. " chua duoc cau hinh trong danh sach.")
+end

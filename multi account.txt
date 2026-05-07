@@ -1,0 +1,22 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local userScripts = {
+    ["miketroutnoob"] = "https://raw.githubusercontent.com/purplevoid0/test/refs/heads/main/gatling%20nst",
+    ["DEXTER123123444"] = "https://raw.githubusercontent.com/purplevoid0/test/refs/heads/main/gatling%20nst",
+    ["DAHil09231"] = "https://raw.githubusercontent.com/purplevoid0/test/refs/heads/main/gatling%20nst",
+    ["y77by7byedxubx"] = "https://raw.githubusercontent.com/purplevoid0/test/refs/heads/main/speed%20hc",
+}
+
+local function runScript(url)
+    loadstring(game:HttpGet(url))()
+end
+
+if userScripts[player.Name] then
+    runScript(userScripts[player.Name])
+    return
+end

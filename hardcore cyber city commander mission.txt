@@ -1,0 +1,173 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Commander", "Gatling Gun", "Hacker", "Military Base", "Mortar")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Cyber City", {})
+
+TDS:Place("Military Base", 23.470659, 1.000003, -16.377401)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Mortar", -13.431417, 6.053179, -12.760317)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 13 ] --
+TDS:VoteSkip(13)
+TDS:VoteSkip(14)
+
+-- [ Wave 15 ] --
+TDS:Place("Gatling Gun", -6.807085, 1.000002, -12.465641)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 18 ] --
+TDS:VoteSkip(18)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(1)
+TDS:Place("Military Base", -7.011413, 1.026095, -6.672477)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 26 ] --
+TDS:Place("Mortar", -12.431348, 12.112166, -13.38325)
+TDS:Upgrade(5)
+TDS:Place("Mortar", -8.869556, 12.076531, -13.299999)
+TDS:Upgrade(6)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 35 ] --
+TDS:Place("Hacker", -5.642667, 1.000004, -21.751907)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Place("Hacker", -18.350626, 0.600003, -22.327557)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 41 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 42 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 44 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 45 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 46 ] --
+TDS:Upgrade(7)
+TDS:Ability(7, "Hologram Tower")
+TDS:Upgrade(8)
+
+-- [ Wave 47 ] --
+TDS:Place("Military Base", -14.204122, 1.044987, -4.428476)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Military Base", -7.158683, 1.026065, -1.558501)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Military Base", -14.251764, 0.999999, 0.264997)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+TDS:Upgrade(10)
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Place("Commander", -10.350544, 1.000002, -12.839088)
+TDS:Place("Commander", -13.443649, 1.000002, -12.857862)
+TDS:Place("Commander", -16.636524, 1.016154, -12.9)
+TDS:Place("Commander", -11.93795, 1.000002, -10.126708)
+
+-- [ Wave 48 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Commander", -15.091484, 1.000002, -10.107923)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Commander", -18.150162, 1.000002, -10.152137)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 50 ] --
+TDS:Ability(7, "Hologram Tower", {towerPosition = Vector3.new(-12.499983, 12.10181, -17.32917), towerToClone = 3})
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-8.446646, 12.112167, -16.867498), towerToClone = 6})
+TDS:Ability(7, "Hologram Tower", {towerPosition = Vector3.new(-12.350895, 12.100578, -17.813534), towerToClone = 3})
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-7.947404, 12.112167, -16.983402), towerToClone = 3})
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-8.205332, 12.112167, -17.415834), towerToClone = 6})

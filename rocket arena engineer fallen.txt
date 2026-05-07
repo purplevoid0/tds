@@ -1,0 +1,134 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+ 
+TDS:Loadout("Gatling Gun", "Tesla", "DJ Booth", "Engineer", "Pyromancer")
+TDS:Mode("Fallen")
+TDS:GameInfo("Rocket Arena", {})
+TDS:VoteSkip(1)
+TDS:VoteSkip(5, 9)
+TDS:VoteSkip(11, 14)
+ 
+TDS:Place("Engineer", 3.000255, 2, -3.335677, true)
+TDS:Ready()
+ 
+-- [ Wave 1 ] --
+TDS:Upgrade(1)
+ 
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Place("Engineer", 3.403263, 2, 3.381142)
+ 
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+ 
+-- [ Wave 5 ] --
+TDS:Upgrade(2)
+ 
+-- [ Wave 7 ] --
+TDS:Place("Tesla", 11.934175, 2, -3.427734)
+ 
+-- [ Wave 8 ] --
+TDS:Upgrade(3)
+ 
+-- [ Wave 9 ] --
+TDS:Upgrade(1)
+ 
+ 
+-- [ Wave 11 ] --
+ 
+ 
+-- [ Wave 12 ] --
+TDS:Place("Pyromancer", 3.000255, 2, -3.335677, true)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Place("Engineer", -3.310695, 2, 3.320054)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+ 
+ 
+-- [ Wave 14 ] --
+TDS:Place("Gatling Gun", 11.751494, 6.354593, -16.155182)
+ 
+-- [ Wave 15 ] --
+TDS:Upgrade(6)
+ 
+-- [ Wave 16 ] --
+TDS:Upgrade(6)
+TDS:Place("Engineer", -3.69787, 2, -3.180694)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+ 
+-- [ Wave 17 ] --
+TDS:Place("DJ Booth", 7.769694, 2, -6.942154)
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Place("Engineer", 3.576878, 2, -6.569912)
+ 
+-- [ Wave 18 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Engineer", -3.412022, 2, -6.398798)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+ 
+-- [ Wave 20 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(8)
+ 
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+ 
+-- [ Wave 23 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+ 
+-- [ Wave 25 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+ 
+-- [ Wave 26 ] --
+TDS:Upgrade(9)
+ 
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+ 
+-- [ Wave 29 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+ 
+-- [ Wave 30 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+TDS:Upgrade(2)
+ 
+-- [ Wave 31 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+ 
+-- [ Wave 32 ] --
+TDS:Upgrade(6)
+ 
+-- [ Wave 34 ] --
+TDS:Upgrade(6)
+TDS:SetOption(8, "Track", "Red")
+ 
+-- [ Wave 40 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+ 

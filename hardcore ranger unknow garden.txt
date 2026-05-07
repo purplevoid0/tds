@@ -1,0 +1,195 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Ranger", "Gatling Gun", "Military Base", "Mortar", "Hacker")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Unknown Garden", {})
+
+TDS:Place("Military Base", -45.342453, 1.024269, 3.198834)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Mortar", -4.081918, 4.933966, -4.084628)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:VoteSkip(13)
+TDS:VoteSkip(14)
+
+-- [ Wave 15 ] --
+TDS:Place("Gatling Gun", -3.785016, 1.018694, -1.376648)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 22 ] --
+TDS:Place("Hacker", -26.837288, 1.024269, 1.094049)
+TDS:Upgrade(4)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Place("Hacker", -1.699406, 1.018684, 9.247719)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:VoteSkip(24)
+TDS:Upgrade(2)
+
+-- [ Wave 25 ] --
+TDS:Place("Mortar", -1.444636, 4.933966, -6.39946)
+TDS:Place("Mortar", -6.699133, 4.933968, -6.502954)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(7)
+TDS:VoteSkip(26)
+TDS:Upgrade(6)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(3)
+TDS:VoteSkip(29)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(7)
+TDS:VoteSkip(30)
+TDS:Upgrade(3)
+
+-- [ Wave 31 ] --
+TDS:VoteSkip(31)
+TDS:Upgrade(6)
+
+-- [ Wave 32 ] --
+TDS:VoteSkip(32)
+TDS:Upgrade(3)
+
+-- [ Wave 34 ] --
+TDS:Place("Ranger", -4.012888, 4.93399, -8.485598)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 35 ] --
+TDS:Place("Ranger", -6.72697, 4.933967, -9.827311)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Ranger", -9.938622, 4.419184, -6.919714)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 36 ] --
+TDS:Place("Ranger", -9.405099, 4.419137, -11.263013)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Ranger", -11.929415, 4.419137, -9.307889)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 37 ] --
+TDS:Place("Ranger", -11.023564, 3.289937, -25.020863)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Ranger", -11.805288, 3.289937, -27.96019)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Ranger", -8.822096, 3.289937, -27.182571)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 40 ] --
+TDS:Place("Military Base", -37.316154, 1.024269, -2.582072)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Military Base", -26.746439, 1.02427, -7.572158)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 41 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Military Base", -44.507679, 1.02427, -3.254617)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Military Base", -37.489239, 1.024269, 3.526044)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 42 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+
+-- [ Wave 43 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(15)
+
+-- [ Wave 44 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 45 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(3)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+
+-- [ Wave 46 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+
+-- [ Wave 47 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 48 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 49 ] --
+TDS:Upgrade(6)
+
+
+-- [ Wave 50 ] --
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(-8.016293, 1.018695, -1.056393), towerToClone = 3})
+TDS:Ability(4, "Hologram Tower", {towerPosition = Vector3.new(-31.76421, 3.200236, -20.996794), towerToClone = 12})
+TDS:Ability(5, "Hologram Tower", {towerPosition = Vector3.new(0.697203, 1.018693, 2.04331), towerToClone = 3})
+TDS:Ability(4, "Hologram Tower", {towerPosition = Vector3.new(-31.386511, 3.200236, -21.146952), towerToClone = 10})

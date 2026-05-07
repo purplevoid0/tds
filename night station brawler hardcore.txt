@@ -1,0 +1,193 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Brawler", "Gatling Gun", "DJ Booth", "Military Base", "Mortar")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Night Station", {})
+
+TDS:Place("Military Base", 3.551165, 0.075, -25.587639)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 6 ] --
+TDS:Place("Mortar", 0.334115, 4.81481, 7.489868)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 14 ] --
+TDS:VoteSkip(13)
+TDS:VoteSkip(14)
+
+-- [ Wave 15 ] --
+TDS:Place("Gatling Gun", 0.319923, 0.075, 3.422428)
+
+-- [ Wave 16 ] --
+TDS:Place("Military Base", 5.830843, 0.075, -17.875994)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Place("DJ Booth", 4.012112, 0.075, 0.588068)
+TDS:SetOption(5, "Track", "Green")
+TDS:Upgrade(5)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Place("Mortar", 3.847266, 4.81481, 7.441813)
+TDS:Upgrade(6)
+TDS:Place("Mortar", 7.433034, 4.81481, 7.478348)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(4)
+TDS:Place("Military Base", 5.889181, 0.075, -10.686386)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(8)
+TDS:Place("Military Base", -2.121639, 0.075, -3.820025)
+TDS:Upgrade(9)
+TDS:Place("Military Base", -6.701221, 0.075, -3.988339)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 30 ] --
+TDS:VoteSkip(30)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(6)
+
+-- [ Wave 41 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 42 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 43 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 44 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 45 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+
+-- [ Wave 46 ] --
+TDS:Upgrade(10)
+TDS:SetOption(5, "Track", "Red")
+TDS:Place("Brawler", 1.296601, 0.075, -4.078371)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Brawler", 3.51828, 0.075, -3.806434)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Place("Brawler", 2.587269, 0.075, -10.3241)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Brawler", 6.163076, 0.075, -14.039335)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Brawler", 12.553912, 0.075, -14.237131)
+TDS:Place("Brawler", 12.437738, 0.075, -12.10487)
+TDS:Place("Brawler", 12.416591, 0.075, -9.971865)
+TDS:Place("Brawler", 12.486643, 0.075, -7.872036)
+
+-- [ Wave 47 ] --
+TDS:Place("Brawler", 12.372397, 0.075, -5.791555)
+TDS:Place("Brawler", 5.645505, 0.075, -4.063511)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(15)

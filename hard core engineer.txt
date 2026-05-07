@@ -1,0 +1,179 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+ 
+TDS:Loadout("Tesla", "Gatling Gun", "Engineer", "DJ Booth", "Pyromancer")
+TDS:Mode("Hardcore")
+TDS:Addons()
+TDS:GameInfo("Crossroads", {})
+TDS:Ready()
+ 
+-- [ Wave 1 ] --
+TDS:VoteSkip(1, 15)
+TDS:Place("Engineer", 8.988708, 0.999998, 10.468249)
+ 
+TDS:Upgrade(1)
+ 
+ 
+TDS:Upgrade(1)
+ 
+ 
+TDS:Place("Pyromancer", 2.57698, 1, 2.819458)
+ 
+-- [ Wave 9 ] --
+ 
+TDS:Upgrade(2)
+ 
+-- [ Wave 10 ] --
+ 
+TDS:Upgrade(2)
+ 
+-- [ Wave 11 ] --
+ 
+TDS:Place("Engineer", 6.048491, 0.999998, 9.497571)
+ 
+-- [ Wave 12 ] --
+ 
+TDS:Upgrade(3)
+ 
+-- [ Wave 13 ] --
+ 
+TDS:Upgrade(3)
+ 
+-- [ Wave 14 ] --
+ 
+ 
+-- [ Wave 19 ] --
+TDS:Place("Gatling Gun", 11.266622, 5.099993, -8.729416)
+ 
+-- [ Wave 20 ] --
+TDS:Upgrade(4)
+ 
+-- [ Wave 22 ] --
+TDS:Place("Tesla", 9.709362, 0.999999, 6.91797)
+ 
+-- [ Wave 24 ] --
+TDS:Upgrade(5)
+ 
+-- [ Wave 25 ] --
+TDS:Upgrade(4)
+ 
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+TDS:Place("DJ Booth", 10.00922, 1.000001, -2.590906)
+TDS:SetOption(6, "Track", "Green")
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+ 
+-- [ Wave 32 ] --
+TDS:Upgrade(5)
+ 
+-- [ Wave 33 ] --
+TDS:Upgrade(4)
+ 
+-- [ Wave 34 ] --
+TDS:Place("Tesla", -3.053919, 1.000008, -21.41106)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+ 
+-- [ Wave 35 ] --
+TDS:Upgrade(6)
+ 
+-- [ Wave 36 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+ 
+-- [ Wave 37 ] --
+TDS:Upgrade(7)
+ 
+-- [ Wave 40 ] --
+TDS:Upgrade(5)
+ 
+-- [ Wave 41 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+ 
+-- [ Wave 42 ] --
+TDS:Upgrade(4)
+ 
+-- [ Wave 44 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(7)
+ 
+-- [ Wave 45 ] --
+TDS:Place("Pyromancer", -3.002022, 1.000008, -35.700241)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Sell(2)
+TDS:Upgrade(3)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+ 
+-- [ Wave 46 ] --
+TDS:Place("Engineer", 6.099237, 0.999999, 5.949425)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Place("Engineer", 8.989929, 1, 2.922988)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Place("Engineer", 5.376239, 1, 2.810794)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+ 
+-- [ Wave 47 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Engineer", 3.092069, 0.999999, 5.317247)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:SetOption(6, "Track", "Red")
+ 
+-- [ Wave 48 ] --
+TDS:Place("Pyromancer", -2.949095, 1.000008, -32.487839)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Pyromancer", -3.210419, 1.000008, -29.234171)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Pyromancer", -2.975195, 1.000008, -25.98526)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Place("Pyromancer", -6.418625, 1.000008, -35.315617)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Pyromancer", -5.895212, 1.000008, -31.826603)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
