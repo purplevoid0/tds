@@ -2,6 +2,7 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/au
 
 TDS:Loadout("Assassin", "Trapper", "None", "None", "None")
 TDS:Mode("Pizza Party")
+TDS:GameInfo("Pizza Party", {})
 
 TDS:Ready()
 TDS:VoteSkip(1, 30)
