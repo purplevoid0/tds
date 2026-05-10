@@ -92,6 +92,7 @@ TDS:Place("Commander", 10.712162017822266, 0.9245572090148926, 13.50337219238281
 -- [ Wave 25 ] --
 TDS:Place("Commander", 13.835067749023438, 0.9389572143554688, 13.60741901397705)
 TDS:Upgrade(8)
+TDS:Upgrade(7)
 TDS:Upgrade(9)
 TDS:Upgrade(8)
 TDS:Upgrade(10)
@@ -122,7 +123,7 @@ TDS:Upgrade(12)
 TDS:Upgrade(13)
 
 -- [ Wave 28 ] --
-TDS:Upgrade(7)
+
 TDS:Upgrade(7)
 TDS:Upgrade(7)
 
