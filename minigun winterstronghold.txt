@@ -1,0 +1,300 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Cowboy", "Hacker", "Gatling Gun", "Minigunner", "Ranger")
+TDS:Mode("Fallen")
+TDS:GameInfo("Winter Stronghold", {})
+
+TDS:Place("Cowboy", -18.317333221435547, -0.16001199185848236, 35.805049896240234)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", 18.685253143310547, -0.16000346839427948, -7.654699325561523)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", 16.13156509399414, -0.1600000560283661, -7.811290740966797)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -16.338071823120117, -0.16001199185848236, 37.498390197753906)
+TDS:Place("Cowboy", 14.418583869934082, -0.1600058376789093, -9.693277359008789)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -15.911590576171875, -0.16001005470752716, 34.95172119140625)
+
+-- [ Wave 5 ] --
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", -12.610557556152344, -0.1600121408700943, 27.551799774169922)
+TDS:Place("Hacker", -20.929779052734375, -0.9999935626983643, 37.43389892578125)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Place("Hacker", 18.984947204589844, -0.9999935626983643, -10.288646697998047)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 15 ] --
+TDS:Place("Minigunner", -22.691375732421875, -0.9999935626983643, 34.801918029785156)
+TDS:Place("Minigunner", -18.4270076751709, -0.9999935626983643, 39.56852340698242)
+
+-- [ Wave 16 ] --
+TDS:Place("Minigunner", -19.8961238861084, -0.1600109487771988, 33.462093353271484)
+TDS:Place("Minigunner", -14.09874153137207, -0.1600121408700943, 39.146793365478516)
+TDS:Place("Minigunner", -16.079957962036133, -0.9999935626983643, 41.560951232910156)
+TDS:Place("Minigunner", -23.937559127807617, -0.9999935626983643, 37.614044189453125)
+TDS:Place("Minigunner", -19.043487548828125, -0.9999935626983643, 42.721153259277344)
+TDS:Place("Minigunner", -25.909046173095703, -0.9999935626983643, 35.13151550292969)
+TDS:Place("Minigunner", -24.692541122436523, -0.9999935626983643, 32.169105529785156)
+TDS:Place("Minigunner", -27.0518856048584, -0.9999935626983643, 37.99811553955078)
+
+-- [ Wave 17 ] --
+TDS:Place("Minigunner", 21.691242218017578, -0.9999935626983643, -8.982450485229492)
+TDS:Place("Minigunner", 22.055749893188477, -0.9999935626983643, -12.06149673461914)
+TDS:Place("Minigunner", 19.24666976928711, -0.9999935626983643, -13.525991439819336)
+TDS:Place("Minigunner", 19.832429885864258, -0.16000470519065857, -5.086335182189941)
+
+-- [ Wave 18 ] --
+TDS:Place("Minigunner", 24.723737716674805, -0.9999935626983643, -10.625711441040039)
+TDS:Place("Minigunner", 25.82684326171875, -0.9999935626983643, -7.5859375)
+TDS:Place("Minigunner", 27.746105194091797, -0.9999935626983643, -9.927989959716797)
+TDS:Place("Minigunner", 16.141756057739258, -0.9999935626983643, -12.425483703613281)
+TDS:Place("Minigunner", 16.938703536987305, -0.9999935626983643, -15.563339233398438)
+TDS:Place("Minigunner", 19.38739776611328, -0.9999935626983643, -17.48470687866211)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(16)
+TDS:Place("Minigunner", -16.502565383911133, -0.9999935626983643, 44.72951889038086)
+TDS:Place("Minigunner", -13.645758628845215, -0.9999935626983643, 43.649627685546875)
+TDS:Place("Minigunner", -19.28803825378418, -0.9999935626983643, 45.99220275878906)
+TDS:Place("Minigunner", 14.007768630981445, -0.9999935626983643, -14.837934494018555)
+TDS:Place("Minigunner", 14.9847993850708, -0.9999935626983643, -17.88730239868164)
+
+-- [ Wave 21 ] --
+TDS:Place("Minigunner", 17.438308715820312, -0.9999935626983643, -19.851110458374023)
+TDS:Place("Minigunner", 12.027911186218262, -0.9999935626983643, -17.17200469970703)
+TDS:Place("Minigunner", -27.808517456054688, -0.9999935626983643, 32.72657012939453)
+TDS:Place("Minigunner", -11.045232772827148, -0.9999935626983643, 45.255531311035156)
+
+-- [ Wave 22 ] --
+TDS:Place("Minigunner", 24.878219604492188, -0.9999935626983643, -4.481315612792969)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(21)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(34)
+TDS:Upgrade(30)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(32)
+TDS:Upgrade(37)
+TDS:Upgrade(38)
+TDS:Upgrade(34)
+TDS:Upgrade(39)
+TDS:Upgrade(31)
+TDS:Upgrade(33)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(37)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(38)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(31)
+TDS:Upgrade(39)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(30)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(20)
+TDS:Upgrade(19)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(22)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(31)
+TDS:Upgrade(23)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(32)
+TDS:Upgrade(21)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(33)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(34)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(37)
+TDS:Upgrade(26)
+TDS:Upgrade(29)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(27)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(30)
+TDS:Upgrade(32)
+TDS:Upgrade(33)
+TDS:Upgrade(38)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(9, 2)
+TDS:Upgrade(8, 2)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(34)
+TDS:Upgrade(35)
+TDS:Upgrade(36)
+TDS:Upgrade(37)
+TDS:Upgrade(38)
+TDS:Upgrade(39)
+TDS:Upgrade(39)
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-6.975368499755859, -0.16000235080718994, 26.90487289428711), towerToClone = 7})
+
+-- [ Wave 37 ] --
+TDS:Place("Ranger", -23.727027893066406, 4.359889984130859, 26.60737419128418)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Upgrade(40)
+TDS:Place("Ranger", -26.591524124145508, 2.9945428371429443, 23.42190170288086)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Upgrade(41)
+TDS:Place("Ranger", -19.699825286865234, 9.185215950012207, 15.736488342285156)
+TDS:Place("Ranger", -7.919954299926758, 3.194570302963257, -3.0733094215393066)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(42)
+TDS:Upgrade(43)
+TDS:Upgrade(42)
+TDS:Upgrade(43)
+TDS:Upgrade(42)
+TDS:Upgrade(43)
+TDS:Upgrade(42)
+TDS:Upgrade(43)
+
+-- [ Wave 40 ] --
+TDS:Ability(8, "Hologram Tower", {towerPosition = Vector3.new(-7.174394607543945, -0.1600121408700943, 35.83365249633789), towerToClone = 7})
