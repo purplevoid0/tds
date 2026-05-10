@@ -1,0 +1,194 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+ 
+TDS:Loadout("Engineer", "DJ Booth", "Accelerator", "Gatling Gun", "Hacker")
+TDS:Mode("Hardcore")
+TDS:GameInfo("Crossroad", {})
+ 
+TDS:Ready()
+ 
+-- [ Wave 1 ] --
+TDS:Place("Engineer", 5.223459, 0.999998, 10.203708)
+ 
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+ 
+-- [ Wave 5 ] --
+TDS:Place("Engineer", 8.218698, 0.999998, 9.69057)
+ 
+-- [ Wave 6 ] --
+TDS:Upgrade(2)
+ 
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+ 
+-- [ Wave 10 ] --
+TDS:Upgrade(2)
+ 
+-- [ Wave 11 ] --
+TDS:Place("Engineer", 11.280255, 0.999998, 9.764)
+ 
+-- [ Wave 12 ] --
+TDS:Upgrade(3)
+ 
+-- [ Wave 13 ] --
+TDS:Place("Engineer", 5.192065, 0.999998, 13.207048)
+TDS:Upgrade(4)
+ 
+-- [ Wave 14 ] --
+TDS:Place("Engineer", 8.368582, 0.999998, 12.748569)
+TDS:Upgrade(5)
+ 
+-- [ Wave 15 ] --
+TDS:Upgrade(5)
+ 
+-- [ Wave 16 ] --
+TDS:Place("Engineer", 11.499327, 0.999998, 12.783502)
+TDS:Upgrade(6)
+ 
+-- [ Wave 17 ] --
+TDS:Upgrade(3)
+ 
+-- [ Wave 18 ] --
+TDS:Upgrade(4)
+ 
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+ 
+-- [ Wave 22 ] --
+TDS:Place("Gatling Gun", 2.746422, 1, -3.1159)
+ 
+-- [ Wave 24 ] --
+TDS:Upgrade(7)
+ 
+-- [ Wave 26 ] --
+TDS:Upgrade(7)
+ 
+-- [ Wave 27 ] --
+TDS:Place("DJ Booth", 11.04234, 1, 2.740719)
+TDS:Upgrade(8)
+TDS:Upgrade(8)
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(8)
+ 
+-- [ Wave 30 ] --
+TDS:Upgrade(7)
+ 
+-- [ Wave 33 ] --
+TDS:Upgrade(7)
+ 
+-- [ Wave 34 ] --
+TDS:Upgrade(8)
+ 
+-- [ Wave 35 ] --
+TDS:Upgrade(8)
+ 
+-- [ Wave 36 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(4)
+ 
+-- [ Wave 37 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+ 
+-- [ Wave 38 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+ 
+-- [ Wave 39 ] --
+TDS:SetOption(8, "Track", "Red")
+ 
+-- [ Wave 40 ] --
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+ 
+-- [ Wave 41 ] --
+TDS:Upgrade(6)
+TDS:Place("Hacker", 8.340992, 0.999999, 6.647964)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+ 
+-- [ Wave 42 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(1)
+ 
+-- [ Wave 43 ] --
+TDS:Upgrade(2)
+ 
+-- [ Wave 44 ] --
+TDS:SetOption(8, "Track", "Red")
+TDS:SetOption(8, "Track", "Green")
+TDS:SetOption(8, "Track", "Green")
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(7)
+ 
+-- [ Wave 45 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+ 
+-- [ Wave 46 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+ 
+-- [ Wave 47 ] --
+TDS:Upgrade(9)
+TDS:Place("Accelerator", 4.954978, 0.999999, 4.705232, true)
+TDS:Place("Accelerator", 4.05663, 0.999999, 4.335229, true)
+TDS:Place("Accelerator", 4.233575, 0.999999, 4.550465, true)
+TDS:Place("Accelerator", 4.030219, 0.999999, 4.219326, true)
+TDS:Place("Accelerator", 4.919203, 0.999999, 4.646911, true)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(10)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+ 
+-- [ Wave 48 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:Place("Hacker", 3.099838, 1.000002, -12.084267)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+ 
+-- [ Wave 49 ] --
+TDS:Upgrade(15)
+TDS:SetOption(8, "Track", "Red")
+ 
+-- [ Wave 50 ] --
+TDS:SetOption(8, "Track", "Purple")
+TDS:SetOption(8, "Track", "Red")
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(8.719082, 1.000001, -4.03672), towerToClone = 7})
+TDS:Ability(15, "Hologram Tower", {towerPosition = Vector3.new(7.231733, 1.000001, -4.054956), towerToClone = 8})
+TDS:SetOption(8, "Track", "Purple")
+TDS:SetOption(8, "Track", "Red")
