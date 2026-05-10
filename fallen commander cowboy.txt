@@ -202,6 +202,8 @@ TDS:VoteSkip(37)
 
 -- [ Wave 38 ] --
 TDS:VoteSkip(38)
+TDS:Sell(8)
+TDS:Sell(9)
 
 -- [ Wave 39 ] --
 TDS:Ability(14, "Hologram Tower", {towerPosition = Vector3.new(20.26064682006836, 0.9798657894134521, 18.644760131835938), towerToClone = 7})
