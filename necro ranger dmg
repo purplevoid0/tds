@@ -72,6 +72,7 @@ TDS:VoteSkip(19)
 TDS:Place("Ranger", -17.180133819580078, 4.442413330078125, -21.575111389160156)
 TDS:Place("Ranger", -17.578157424926758, 4.442460060119629, -24.780839920043945)
 TDS:Place("Ranger", -19.42393684387207, 4.094588279724121, -27.38852310180664)
+TDS:Upgrade(7)
 TDS:VoteSkip(20)
 
 -- [ Wave 21 ] --
@@ -98,6 +99,7 @@ TDS:VoteSkip(26)
 -- [ Wave 27 ] --
 TDS:Upgrade(7)
 TDS:Upgrade(7)
+
 TDS:VoteSkip(27)
 
 -- [ Wave 28 ] --
@@ -112,7 +114,7 @@ TDS:VoteSkip(30)
 -- [ Wave 31 ] --
 TDS:Upgrade(8)
 TDS:VoteSkip(31)
-TDS:Upgrade(7)
+
 
 -- [ Wave 32 ] --
 TDS:VoteSkip(32)
