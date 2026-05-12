@@ -5,8 +5,9 @@ TDS:Mode("Frost")
 TDS:GameInfo("Honey Valley", {})
  
 TDS:Place("Electroshocker", 4.274596, -6.367913, 11.227084)
-TDS:Upgrade(1)
 TDS:Ready()
+TDS:Upgrade(1)
+
  
 -- [ Wave 2 ] --
 TDS:VoteSkip(2)
