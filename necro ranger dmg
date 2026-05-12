@@ -1,0 +1,195 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Ranger", "Gatling Gun", "Cowboy", "Necromancer", "Hacker")
+TDS:Mode("")
+TDS:GameInfo("", {})
+
+TDS:Place("Cowboy", -22.619417190551758, 1, -22.656553268432617)
+TDS:Ready()
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", -22.00943374633789, 1, -20.179893493652344)
+TDS:VoteSkip(2)
+TDS:Place("Cowboy", -23.470914840698242, 1, -25.666614532470703)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", -24.504968643188477, 1, -20.697017669677734)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", -25.144060134887695, 1, -23.117237091064453)
+TDS:VoteSkip(4)
+
+-- [ Wave 5 ] --
+TDS:Place("Cowboy", -27.053218841552734, 1, -21.39096450805664)
+TDS:VoteSkip(5)
+
+-- [ Wave 6 ] --
+TDS:VoteSkip(6)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+
+-- [ Wave 8 ] --
+TDS:Place("Gatling Gun", -28.75699234008789, 1.0124974250793457, -15.182373046875)
+
+-- [ Wave 10 ] --
+TDS:Place("Necromancer", -23.23554039001465, 1, -17.664840698242188)
+
+-- [ Wave 11 ] --
+TDS:VoteSkip(11)
+
+-- [ Wave 12 ] --
+TDS:Place("Necromancer", -21.25497055053711, 1, -15.347997665405273)
+TDS:Place("Necromancer", -23.29082489013672, 1, -13.111173629760742)
+
+-- [ Wave 14 ] --
+TDS:Place("Ranger", -18.562955856323242, 4.440621376037598, -14.736723899841309)
+TDS:VoteSkip(14)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(11)
+TDS:VoteSkip(15)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(8)
+TDS:VoteSkip(16)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Place("Ranger", -15.714960098266602, 4.440609455108643, -13.594709396362305)
+TDS:Place("Ranger", -16.135690689086914, 4.440616130828857, -16.643951416015625)
+TDS:Place("Ranger", -19.638456344604492, 4.442413330078125, -19.67401123046875)
+
+-- [ Wave 19 ] --
+TDS:Place("Ranger", -20.248157501220703, 4.442413330078125, -22.676362991333008)
+TDS:VoteSkip(19)
+
+-- [ Wave 20 ] --
+TDS:Place("Ranger", -17.180133819580078, 4.442413330078125, -21.575111389160156)
+TDS:Place("Ranger", -17.578157424926758, 4.442460060119629, -24.780839920043945)
+TDS:Place("Ranger", -19.42393684387207, 4.094588279724121, -27.38852310180664)
+TDS:VoteSkip(20)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:VoteSkip(21)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 25 ] --
+TDS:VoteSkip(25)
+TDS:Upgrade(8)
+
+-- [ Wave 26 ] --
+TDS:VoteSkip(26)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+TDS:VoteSkip(27)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 30 ] --
+TDS:VoteSkip(30)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:VoteSkip(31)
+TDS:Upgrade(7)
+
+-- [ Wave 32 ] --
+TDS:VoteSkip(32)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+TDS:Upgrade(16)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(11)
+TDS:Upgrade(15)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(12)
+TDS:Upgrade(15)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(13)
+
+-- [ Wave 36 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+
+-- [ Wave 37 ] --
+TDS:Place("Hacker", -11.42349624633789, 1, -27.36440658569336)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(7)
+TDS:Place("Hacker", -22.755203247070312, 1, -28.545455932617188)
+TDS:VoteSkip(38)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20, 2)
+TDS:Sell(19)
+TDS:Sell(20)
+TDS:Place("Hacker", -9.76603889465332, 1, -21.14508819580078)
+
+-- [ Wave 40 ] --
+TDS:Place("Hacker", -22.752700805664062, 1, -28.69449806213379)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22, 2)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21, 2)
+TDS:Ability(21, "Hologram Tower", {towerPosition = Vector3.new(-19.005619049072266, 1, -10.733207702636719), towerToClone = 9})
+TDS:Ability(22, "Hologram Tower", {towerPosition = Vector3.new(-11.03030014038086, 4.271365642547607, -10.834818840026855), towerToClone = 12})
