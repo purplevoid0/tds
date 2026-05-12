@@ -58,8 +58,7 @@ TDS:Upgrade(8, 1)
 
 -- [ Wave 16 ] --
 TDS:Upgrade(8, 1)
-TDS:Upgrade(8, 1)
-TDS:Upgrade(8, 1)
+
 
 -- [ Wave 17 ] --
 TDS:Upgrade(7, 1)
@@ -111,7 +110,8 @@ TDS:Upgrade(17, 1)
 TDS:Upgrade(17, 1)
 
 -- [ Wave 26 ] --
-
+TDS:Upgrade(8, 1)
+TDS:Upgrade(8, 1)
 
 -- [ Wave 27 ] --
 TDS:Upgrade(9, 1)
