@@ -37,6 +37,7 @@ TDS:VoteSkip(8)
 
 -- [ Wave 9 ] --
 TDS:Place("Gatling Gun", 16.256450653076172, 0.9482498168945312, 14.23891830444336)
+TDS:Upgrade(8, 1)
 
 -- [ Wave 10 ] --
 TDS:Place("Hacker", 19.31277084350586, 0.983856201171875, 25.333148956298828)
@@ -110,9 +111,7 @@ TDS:Upgrade(17, 1)
 TDS:Upgrade(17, 1)
 
 -- [ Wave 26 ] --
-game:GetService("ReplicatedStorage").Network.fflags["RE:ask"]:FireServer("consumables.disabled")
-game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Equip", "Damage Flag", "E6F5799C-0616-4D29-B9F9-8BD05F9BAE54")
-game:GetService("ReplicatedStorage").RemoteEvent:FireServer("Consumables", "Unequip", "E6F5799C-0616-4D29-B9F9-8BD05F9BAE54")
+
 
 -- [ Wave 27 ] --
 TDS:Upgrade(9, 1)
@@ -131,7 +130,7 @@ TDS:VoteSkip(29)
 TDS:Upgrade(8, 1)
 
 -- [ Wave 31 ] --
-TDS:Upgrade(8, 1)
+
 
 -- [ Wave 32 ] --
 TDS:Upgrade(8, 1)
