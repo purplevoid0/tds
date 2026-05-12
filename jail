@@ -1,0 +1,102 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+TDS:Addons()
+ 
+TDS:Loadout("Soldier", "Scout", "Cowboy", "Hacker", "Gatling Gun")
+TDS:Mode("Trial")
+ 
+TDS:Ready()
+ 
+-- [ Wave 1 ] --
+TDS:Place("Soldier", -1.7134249210357666, 0.07500076293945312, -17.996931076049805, true)
+TDS:Place("Scout", -1.3873205184936523, 0.07500076293945312, -16.092754364013672, true)
+ 
+-- [ Wave 2 ] --
+TDS:Place("Scout", -1.6489250659942627, 0.07499885559082031, -15.72208023071289, true)
+TDS:Place("Scout", -1.5986533164978027, 0.07499885559082031, -16.049762725830078, true)
+TDS:Place("Scout", -1.6020426750183105, 0.07499885559082031, -16.01784896850586, true)
+ 
+-- [ Wave 3 ] --
+TDS:Place("Scout", -1.6053524017333984, 0.07499885559082031, -16.01357078552246, true)
+ 
+-- [ Wave 4 ] --
+TDS:Place("Soldier", -1.9948279857635498, 0.07499885559082031, -18.058311462402344, true)
+TDS:Place("Soldier", -1.993659257888794, 0.07499885559082031, -18.0592098236084, true)
+TDS:Place("Soldier", -1.926011323928833, 0.07499885559082031, -17.775266647338867, true)
+TDS:Place("Soldier", -1.921013355255127, 0.07499885559082031, -17.781904220581055, true)
+ 
+-- [ Wave 5 ] --
+TDS:Place("Cowboy", -0.7743124961853027, 0.07500076293945312, -18.149126052856445, true)
+TDS:Place("Cowboy", -0.23658621311187744, 0.07500076293945312, -18.28974151611328, true)
+ 
+-- [ Wave 6 ] --
+TDS:Place("Cowboy", 0.2151557207107544, 0.07499885559082031, -17.80506706237793, true)
+TDS:Place("Cowboy", 0.4138897657394409, 0.07499885559082031, -17.847309112548828, true)
+TDS:Place("Cowboy", 0.47672557830810547, 0.07499885559082031, -17.710039138793945, true)
+ 
+-- [ Wave 7 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(3)
+TDS:Upgrade(15)
+TDS:Upgrade(12)
+ 
+-- [ Wave 8 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(10)
+ 
+-- [ Wave 9 ] --
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Place("Hacker", 0.5672006607055664, 0.07500028610229492, -13.28714370727539)
+ 
+-- [ Wave 10 ] --
+TDS:VoteSkip(10)
+TDS:Place("Gatling Gun", 5.059116363525391, 0.07500028610229492, -16.431861877441406)
+ 
+-- [ Wave 11 ] --
+TDS:Upgrade(17)
+ 
+-- [ Wave 12 ] --
+TDS:Place("Hacker", 2.976325035095215, 0.07500028610229492, -24.810197830200195)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:SetTarget(18, "Last")
+TDS:SetTarget(18, "Strongest")
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+ 
+-- [ Wave 13 ] --
+TDS:Upgrade(17)
+ 
+-- [ Wave 17 ] --
+TDS:Upgrade(17)
+ 
+-- [ Wave 18 ] --
+TDS:Upgrade(18)
+ 
+-- [ Wave 20 ] --
+TDS:Upgrade(18)
+ 
+-- [ Wave 23 ] --
+TDS:Upgrade(18, 2)
+ 
+-- [ Wave 26 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+ 
+-- [ Wave 31 ] --
+TDS:Upgrade(17)
+ 
+-- [ Wave 32 ] --
+TDS:Ability(18, "Hologram Tower", {towerPosition = Vector3.new(4.021775245666504, 0.07500267028808594, -11.483223915100098), towerToClone = 17}, true)
+TDS:Upgrade(16)
+ 
+-- [ Wave 33 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+ 
