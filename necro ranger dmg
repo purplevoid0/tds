@@ -97,6 +97,7 @@ TDS:VoteSkip(26)
 
 -- [ Wave 27 ] --
 TDS:Upgrade(7)
+TDS:Upgrade(7)
 TDS:VoteSkip(27)
 
 -- [ Wave 28 ] --
@@ -110,7 +111,6 @@ TDS:VoteSkip(30)
 
 -- [ Wave 31 ] --
 TDS:Upgrade(8)
-TDS:Upgrade(7)
 TDS:VoteSkip(31)
 TDS:Upgrade(7)
 
