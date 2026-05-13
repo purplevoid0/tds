@@ -3,10 +3,10 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/au
 TDS:Loadout("Ranger", "Gatling Gun", "DJ Booth", "Turret", "Electroshocker")
 TDS:Mode("Frost")
 TDS:GameInfo("Honey Valley", {})
-
+TDS:Ready()
 TDS:Place("Electroshocker", 4.274596, -6.367913, 11.227084)
 TDS:Upgrade(1)
-TDS:Ready()
+
 TDS:VoteSkip(1, 30)
 -- [ Wave 2 ] --
 TDS:VoteSkip(2)
