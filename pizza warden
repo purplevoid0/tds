@@ -1,0 +1,252 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Gatling Gun", "Cowboy", "Warden", "Hacker", "Ranger")
+TDS:Mode("PizzaParty")
+
+TDS:Place("Cowboy", 4.3241095542907715, 1.0368714332580566, -17.690139770507812)
+TDS:Ready()
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", 3.967365264892578, 1.0368714332580566, -20.242168426513672)
+TDS:Place("Cowboy", 4.596004962921143, 1.0368714332580566, -15.074014663696289)
+TDS:VoteSkip(3)
+TDS:Place("Cowboy", 1.9205515384674072, 1.0368714332580566, -18.6376895904541)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", 2.2130749225616455, 1.0368714332580566, -16.071212768554688)
+TDS:Place("Cowboy", 2.5095343589782715, 1.0368714332580566, -13.518939018249512)
+
+-- [ Wave 7 ] --
+TDS:VoteSkip(7)
+TDS:Place("Gatling Gun", -11.083147048950195, 1.0368714332580566, -23.875322341918945)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Place("Ranger", -4.927688121795654, 4.007403373718262, -11.735872268676758)
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 16 ] --
+TDS:Place("Ranger", -4.8228607177734375, 4.007403373718262, -8.684908866882324)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(9)
+
+-- [ Wave 18 ] --
+TDS:Place("Ranger", -4.833278656005859, 7.007403373718262, -7.7333855628967285)
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(10)
+TDS:Place("Ranger", -7.902385711669922, 7.007403373718262, -7.756586074829102)
+TDS:Upgrade(11)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(11)
+
+-- [ Wave 21 ] --
+TDS:Place("Ranger", -4.766721725463867, 7.007403373718262, -4.703171730041504)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 22 ] --
+TDS:Place("Hacker", 1.3364698886871338, 1.0368714332580566, -21.389122009277344)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Ranger", -7.839295864105225, 7.007403373718262, -4.668213367462158)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Ranger", -10.648504257202148, 7.007403373718262, -9.213249206542969)
+TDS:Upgrade(15)
+TDS:VoteSkip(23)
+TDS:Upgrade(15)
+
+-- [ Wave 24 ] --
+TDS:Place("Ranger", -10.596785545349121, 7.007403373718262, -6.2018208503723145)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+TDS:VoteSkip(27)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(8)
+TDS:VoteSkip(28)
+TDS:Upgrade(9)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:VoteSkip(29)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(11)
+TDS:Upgrade(16)
+TDS:Upgrade(12)
+TDS:Upgrade(14)
+TDS:VoteSkip(30)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 32 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+TDS:VoteSkip(32)
+TDS:Upgrade(11)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(12)
+TDS:VoteSkip(33)
+TDS:Upgrade(14)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:VoteSkip(34)
+
+-- [ Wave 35 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13, 2)
+
+-- [ Wave 36 ] --
+TDS:Place("Hacker", 6.936578750610352, 1.0368714332580566, -16.58525848388672)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:VoteSkip(36)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(17, 2)
+TDS:Place("Warden", 4.247209548950195, 0.9999395608901978, -37.409080505371094)
+TDS:Place("Warden", 4.214508056640625, 1.0368714332580566, -35.24692916870117)
+TDS:Place("Warden", 4.317409515380859, 1.0368714332580566, -33.20916748046875)
+TDS:Place("Warden", 4.664518356323242, 1.0368714332580566, -30.98342514038086)
+TDS:Place("Warden", -1.296316385269165, 0.9999372959136963, -37.06171417236328)
+TDS:Place("Warden", -1.225051999092102, 1.0368714332580566, -34.98796081542969)
+TDS:Place("Warden", -1.0934687852859497, 1.0368714332580566, -32.875816345214844)
+TDS:Place("Warden", -0.6717041730880737, 1.0368714332580566, -30.790151596069336)
+TDS:Place("Warden", -0.353057324886322, 1.0368714332580566, -28.601938247680664)
+TDS:Place("Warden", 0.057064175605773926, 1.0368714332580566, -26.56999969482422)
+TDS:Place("Warden", 2.151540517807007, 1.0368714332580566, -25.590709686279297)
+
+-- [ Wave 38 ] --
+TDS:Place("Warden", 8.908844947814941, 1.0368714332580566, -29.784944534301758)
+TDS:Place("Warden", 11.73322582244873, 1.0368714332580566, -28.800138473510742)
+TDS:Place("Warden", 5.128597736358643, 1.0368714332580566, -24.94302749633789)
+TDS:Place("Warden", 7.747736930847168, 1.0368714332580566, -24.057228088378906)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(1)
+TDS:Upgrade(5)
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(6)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(2)
+TDS:Upgrade(5)
+TDS:Upgrade(3)
+TDS:Upgrade(6)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(18)
+TDS:Upgrade(22)
+TDS:Upgrade(19)
+TDS:Upgrade(23)
+TDS:Upgrade(18)
+TDS:Upgrade(20)
+TDS:Upgrade(24)
+TDS:Upgrade(19)
+TDS:Upgrade(21)
+TDS:Upgrade(25)
+TDS:Upgrade(20)
+TDS:Upgrade(22)
+TDS:Upgrade(26)
+TDS:Upgrade(18)
+TDS:Upgrade(21)
+TDS:Upgrade(23)
+TDS:Upgrade(27)
+TDS:Upgrade(19)
+TDS:Upgrade(22)
+TDS:Upgrade(24)
+TDS:Upgrade(28)
+TDS:Upgrade(20)
+TDS:Upgrade(23)
+TDS:Upgrade(25)
+TDS:Upgrade(29)
+TDS:Upgrade(21)
+TDS:Upgrade(24)
+TDS:Upgrade(26)
+TDS:Upgrade(32)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(24)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(28)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:Upgrade(30)
+TDS:Upgrade(25)
+TDS:Upgrade(26)
+TDS:Upgrade(27)
+TDS:Upgrade(29)
+TDS:Upgrade(30)
+TDS:Upgrade(31)
+TDS:Upgrade(32)
+TDS:VoteSkip(39)
+
+-- [ Wave 40 ] --
+TDS:Upgrade(28)
+TDS:Upgrade(31)
+TDS:Ability(13, "Hologram Tower", {towerPosition = Vector3.new(-6.14805269241333, 1.0368709564208984, -17.708229064941406), towerToClone = 7})
+TDS:Ability(17, "Hologram Tower", {towerPosition = Vector3.new(-9.899419784545898, 10.007403373718262, -11.456549644470215), towerToClone = 8})
