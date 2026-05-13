@@ -1,0 +1,170 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+
+TDS:Loadout("Accelerator", "Gatling Gun", "Hacker", "Cowboy", "Ranger")
+TDS:Mode("Frost")
+TDS:GameInfo("Summer Castle", {})
+
+TDS:Place("Cowboy", 13.494953155517578, 0.9750127792358398, 24.187580108642578)
+TDS:Ready()
+
+-- [ Wave 1 ] --
+TDS:Place("Cowboy", 10.936349868774414, 0.9714875221252441, 24.14468002319336)
+
+-- [ Wave 2 ] --
+TDS:Place("Cowboy", 13.219249725341797, 0.9766592979431152, 26.747913360595703)
+
+-- [ Wave 3 ] --
+TDS:Place("Cowboy", 10.618597030639648, 0.9730136394500732, 26.625408172607422)
+
+-- [ Wave 4 ] --
+TDS:Place("Cowboy", 16.042095184326172, 0.9784986972808838, 24.200576782226562)
+TDS:Place("Cowboy", 15.77197265625, 0.9802436828613281, 26.876155853271484)
+
+-- [ Wave 7 ] --
+TDS:Place("Gatling Gun", 29.484760284423828, 0.9896945953369141, 14.914608001708984)
+
+-- [ Wave 8 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 12 ] --
+TDS:Place("Accelerator", 16.259265899658203, 0.974637508392334, 18.938236236572266)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(8)
+TDS:Place("Accelerator", 19.8394775390625, 0.9795184135437012, 18.932498931884766)
+TDS:Upgrade(9)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 23 ] --
+TDS:Place("Accelerator", 16.15019989013672, 0.9440820217132568, 15.317129135131836)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 24 ] --
+TDS:VoteSkip(24)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(10)
+TDS:VoteSkip(25)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+TDS:Place("Accelerator", 19.75640869140625, 0.9608469009399414, 15.397226333618164)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Accelerator", 18.02281951904297, 0.9633626937866211, 12.248242378234863)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(12)
+TDS:VoteSkip(30)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 32 ] --
+TDS:VoteSkip(32)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(10)
+
+-- [ Wave 34 ] --
+TDS:Place("Ranger", 11.162894248962402, 4.102097034454346, 8.685113906860352)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Ranger", 13.748106956481934, 4.3993072509765625, 6.609816551208496)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Ranger", 7.7227935791015625, 4.408077239990234, 7.004206657409668)
+
+-- [ Wave 35 ] --
+TDS:Place("Ranger", 11.949499130249023, 4.297970294952393, 4.079370498657227)
+TDS:Place("Ranger", 8.219852447509766, 4.383058071136475, 3.6264028549194336)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Place("Ranger", 5.3874006271362305, 4.309004783630371, 1.862297773361206)
+TDS:Upgrade(7)
+
+-- [ Wave 36 ] --
+TDS:Place("Ranger", 3.5912418365478516, 4.864502906799316, 4.453714370727539)
+TDS:Place("Ranger", -10.292153358459473, 5.289083480834961, 28.532758712768555)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:Upgrade(17)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(11)
+
+-- [ Wave 37 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+TDS:VoteSkip(37)
+
+-- [ Wave 38 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(17)
+TDS:Upgrade(18)
+TDS:Upgrade(19)
+TDS:Upgrade(18)
+TDS:Upgrade(20)
+
+-- [ Wave 39 ] --
+TDS:Upgrade(7)
+TDS:Place("Hacker", 18.689762115478516, 0.9832296371459961, 25.61593246459961)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21, 2)
+
+-- [ Wave 40 ] --
+TDS:Place("Hacker", 11.600318908691406, 0.935291051864624, 11.580389022827148)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22)
+TDS:Upgrade(22, 2)
+TDS:Ability(22, "Hologram Tower", {towerPosition = Vector3.new(20.58922576904297, 0.9876127243041992, 7.231489181518555), towerToClone = 7})
