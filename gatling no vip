@@ -4,7 +4,6 @@ TDS:Loadout("Ranger", "Gatling Gun", "DJ Booth", "Turret", "Electroshocker")
 TDS:Mode("Frost", "15313919747014914128632650504103")
 TDS:GameInfo("Honey Valley", {})
 TDS:Ready()
-TDS:VoteSkip(1, 40)
 TDS:Place("Electroshocker", 4.274596, -6.367913, 11.227084, true)
 TDS:Upgrade(1)
 -- [ Wave 2 ] --
