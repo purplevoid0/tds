@@ -2,7 +2,7 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/au
  
 TDS:Loadout("Engineer", "DJ Booth", "Accelerator", "Gatling Gun", "Hacker")
 TDS:Mode("Hardcore")
-TDS:GameInfo("Cross Road", {})
+TDS:GameInfo("Crossroads", {})
  
 TDS:Ready()
  
